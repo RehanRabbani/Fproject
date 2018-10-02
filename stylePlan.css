@@ -1,0 +1,61 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 39px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 2%;
+    
+    align-items: center;
+    
+   
+}
+section >*{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 1%;
+    color:   #212529;
+}
+.two >p{
+    word-spacing: 4px;
+    
+    letter-spacing: 8px;
+}
+.two>h2{
+    letter-spacing: 3px;
+    font-size: 24px;
+    word-spacing: 2px;
+
+}
+.three{
+    font-size: 27px;
+    font-weight: bold;
+}
+button{
+    
+    margin-left: 80%;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 800px) {
+    section  {
+       flex-direction: column;
+      margin-right: 3%;
+     
+    }
+    button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
