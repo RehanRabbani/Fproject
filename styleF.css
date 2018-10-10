@@ -1,0 +1,53 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+.footer-bg-img{
+    background-image: url('whatdo.jpg');
+    background-color: red;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 15px; */
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+   
+}
+.input-group-text{
+    height: 65px !important;
+    
+}
+.form-control{
+    height: 65px !important;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.link-one,.link-two{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+   
+}
+a{
+    color: black;
+}
+
+.footer-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.input-group {
+    display: flex;
+    max-width: 500px;
+    min-width: 350px;
+
+}
